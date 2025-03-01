@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import DateComponent from "./DateComponent"; 
 
 
 export default function TextForm(props) {
@@ -27,6 +28,7 @@ export default function TextForm(props) {
     </div>
     <button className="btn btn-primary mx-3" onClick={hundleUpClick}>Convert to Uppercase</button>
     <button className="btn btn-primary" onClick={hundleLowClick}>Convert to Uppercase</button>
+    <DateComponent/>
     </div>
     <div className="container">
         <h1>Your Text Summary</h1>

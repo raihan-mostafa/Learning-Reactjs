@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './componments/Navbar';
 import TextForm from './componments/TextForm';
 
+
 function App() {
   return (
     <>
@@ -9,7 +10,9 @@ function App() {
       
       <div className="container">
       <TextForm heading="Enter the text to analyze" />
+      
       </div>
+     
     </>
   );
 }
